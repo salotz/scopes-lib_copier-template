@@ -2,7 +2,7 @@ repo_name:
   type: str
   help: Name of the repo
 
-module_name:
+package_name:
   type: str
   help: Name of the package
 
