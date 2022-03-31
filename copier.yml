@@ -1,0 +1,12 @@
+repo_name:
+  type: str
+  help: Name of the repo
+
+module_name:
+  type: str
+  help: Name of the package
+
+main_module_name:
+  type: str
+  help: Name of the primary module.
+  
