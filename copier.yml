@@ -10,9 +10,10 @@ _exclude:
   - ".svn"
   - "*~"
 
-repo_name:
-  type: str
-  help: Name of the repo
+# TODO: add this when we do auto upload etc.
+# repo_name:
+#   type: str
+#   help: Name of the repo
 
 package_name:
   type: str
