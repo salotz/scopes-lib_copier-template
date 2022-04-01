@@ -5,10 +5,10 @@ repo_name:
 package_name:
   type: str
   help: Name of the package
-  default: {{repo_name}}
+  default: "{{repo_name}}"
 
 main_module_name:
   type: str
   help: Name of the primary module.
-  default: {{package_name}}
+  default: "{{package_name}}"
   
