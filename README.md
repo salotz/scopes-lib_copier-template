@@ -61,3 +61,4 @@ Start coding!
 ## Libraries Using this Template
 
 - [scopes-raylib](https://github.com/salotz/raylib-scopes)
+- [scopes-chipmunk2d](https://github.com/salotz/scopes-chipmunk2d)
