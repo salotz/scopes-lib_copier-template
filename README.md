@@ -8,7 +8,7 @@ stable release. Currently I am using
 [pipx](https://github.com/pypa/pipx):
 
 ```sh
-pipx install git+https://github.com/copier-org/copier.git@e98314063246993532048ba2ecf80a049154d2f6
+pipx install copier
 ```
 
 
