@@ -10,6 +10,9 @@ _exclude:
   - ".svn"
   - "*~"
 
+_tasks:
+  - "git init"
+
 # TODO: add this when we do auto upload etc.
 # repo_name:
 #   type: str
