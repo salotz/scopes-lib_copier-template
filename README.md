@@ -17,13 +17,13 @@ pipx install copier
 Then you can generate your project:
 
 ```sh
-copier 'gh:salotz/scopes-lib_copier-template' ./
+copier 'gh:salotz/scopes-lib_copier-template' name-of-folder
 ```
 
-This should generate the following (`repo_name = my-lib`):
+This should generate something like the following (`repo_name = my-lib`):
 
 ```
-my-lib
+name-of-folder
 ├── __env.sc
 ├── Makefile
 ├── README.md
@@ -31,7 +31,7 @@ my-lib
 └── src
     └── my-lib
         ├── init.sc
-        └── sanity.sc
+        └── ...
 ```
 
 
