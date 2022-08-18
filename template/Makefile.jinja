@@ -1,4 +1,7 @@
 
+init: .spack-env
+.PHONY: init
+
 .spack-env: spack.yaml
 	spack env create -d .
 	spack -e . install

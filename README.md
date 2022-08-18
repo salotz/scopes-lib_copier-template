@@ -46,25 +46,8 @@ See documentation of copier for more details.
 
 ## Development Environment
 
-Create a [Spack](https://spack.io/) environment and install
-dependencies
-
-```
-cd my-lib
-spack env create -d .
-spacktivate .
-spack install
-```
-
-If you need more you can add them to `spack.yaml`.
-
-Then you should be able to run the sanity check:
-
-```sh
-scopes -e -m my-lib.sanity
-```
-
-Start coding!
+See the docs in `template/README.md.jinja` that will be generated for
+each project.
 
 
 ## Libraries Using this Template
