@@ -12,7 +12,7 @@ pipx install copier
 ```
 
 
-## Generating a Project
+## Generating and Updating a Project
 
 Then you can generate your project:
 
@@ -33,6 +33,15 @@ name-of-folder
         ├── init.sc
         └── ...
 ```
+
+You can update the project with:
+
+```sh
+cd name-of-folder
+copier update
+```
+
+See documentation of copier for more details.
 
 
 ## Development Environment
