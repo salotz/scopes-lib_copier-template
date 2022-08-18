@@ -1,10 +1,15 @@
+
 .spack-env: spack.yaml
 	spack env create -d .
 	spack -e . install
 
 sanity:
-	spack env activate . && scopes -e -m {{main_module_name}}.sanity
+	scopes -e -m {{main_module_name}}.sanity
 .PHONY: sanity
+
+test:
+    scopes -e ./tests/*.sc
+.PHONY: test
 
 clean:
 	rm -rf .spack-env
