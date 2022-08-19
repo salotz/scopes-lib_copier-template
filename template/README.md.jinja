@@ -25,9 +25,9 @@ We use [Spack](https://spack.io/) to install dependencies. First install Spack.
 Then you'll need our custom repo of build recipes:
 
 ```sh
-  mkdir -p `/.spack/repos
-  git clone git@github.com:salotz/snailpacks.git `/.spack/repos/snailpacks
-  spack repo add `/resources/spack-repos/snailpacks
+  mkdir -p ~/.spack/repos
+  git clone git@github.com:salotz/snailpacks.git ~/.spack/repos/snailpacks
+  spack repo add ~/resources/spack-repos/snailpacks
 ```
 
 Then you need to create an environment in this folder that will
